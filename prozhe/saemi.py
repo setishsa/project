@@ -48,8 +48,8 @@ f2entry.insert(END, """Write your code here...""")
 def compiler(inpt):
     url = "https://api.jdoodle.com/v1/execute"
     headers = {'Content-type': 'application/json'}
-    payload = {"clientId": "fdd703fe8c319389ca26ed052413ae87",
-               "clientSecret": "51133fcab2c301dc71e99ee905643c23bb5a6ff7cdb2b85a4849c1083e362360",
+    payload = {"clientId": "e349b93032ef5476a2852a4b75c313a",
+               "clientSecret": "ab2e30bc8b1db3a41c953342f296d36b2fc7871d25a45af4d8d1df87cbec0b5e",
                "script": """{}""".format(inpt),
                "language": "c",
                "versionIndex": "0",
